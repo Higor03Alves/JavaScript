@@ -43,7 +43,7 @@ carro['propietario']['endereco']['rua'] = 'Sao Bernado'
  
 console.log(carro)
 
-//delete carro.motoristas;
+//delete carro.motoristas;  se o obj estiver nulo pode gera um erro no seu progamar
 delete carro.propietario.endereco;
 delete carro.calValorDoSeguro;
 console.log(carro);
